@@ -8,6 +8,10 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\Potrebitel\\Documents\\Work"]
     },
+    "files": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\ivan\\Documents\\Work"]
+    }.
     "woocommerce": {
       "type": "stdio",
       "command": "npx",
