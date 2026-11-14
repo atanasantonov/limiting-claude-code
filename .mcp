@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "database": {
+      "type": "stdio",
+      "command": "/home/user/.npm/_npx/e23b069b9efbbb8f/node_modules/.bin/dbhub",
+      "args": [
+        "--dsn",
+        "mysql://readonly:0000@localhost:3306/vending_demo"
+      ],
+      "env": {}
+    }
+  }
+}
