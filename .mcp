@@ -4,14 +4,21 @@
       "type": "http",
       "url": "https://mcp.context7.com/mcp"
     },
-    "database": {
+    "files": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\Potrebitel\\Documents\\Work"]
+    },
+    "woocommerce": {
       "type": "stdio",
-      "command": "/home/user/.npm/_npx/e23b069b9efbbb8f/node_modules/.bin/dbhub",
+      "command": "npx",
       "args": [
-        "--dsn",
-        "mysql://readonly:0000@localhost:3306/vending_demo"
+        "-y",
+        "@automattic/mcp-wordpress-remote@latest"
       ],
-      "env": {}
+      "env": {
+        "WP_API_URL": "https://wordpress.local/wp-json/woocommerce/mcp",
+        "CUSTOM_HEADERS": "{\"X-MCP-API-Key\": \"ck_***:cs_***\"}"
+      }
     }
   }
 }
