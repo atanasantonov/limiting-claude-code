@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # update-claude - Updates the system-wide Claude Code installation.
-#   Versions are kept in /usr/local/lib/claude-code/versions/,
-#   /usr/local/bin/claude is a symlink to the active one.
+#   
+# Versions are kept in /usr/local/lib/claude-code/versions/,
+# /usr/local/bin/claude is a symlink to the active one.
 #
 # Usage:
 #   update-claude --check          # Show installed and available version (no root needed)
